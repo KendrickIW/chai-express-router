@@ -1,1 +1,1 @@
-export * from './methods/route';
+export * from "./methods/route";

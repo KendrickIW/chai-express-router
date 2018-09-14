@@ -1,0 +1,16 @@
+{
+  "name": "chai-express-router",
+  "version": "1.0.0",
+  "description": "Chai assertions for express router",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "chai",
+    "router",
+    "express"
+  ],
+  "author": "Kendrick Williams",
+  "license": "ISC"
+}

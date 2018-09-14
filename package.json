@@ -5,9 +5,10 @@
   "main": "./build/index.js",
   "types": "./index.d.ts",
   "scripts": {
+    "pretest": "npm run lint",
     "test": "TS_NODE_FILES=true mocha",
     "build": "tsc",
-    "lint": "tslint"
+    "lint": "tslint --project tsconfig.json"
   },
   "keywords": [
     "chai",

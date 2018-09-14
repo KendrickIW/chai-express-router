@@ -2,9 +2,12 @@
   "name": "chai-express-router",
   "version": "1.0.0",
   "description": "Chai assertions for express router",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "TS_NODE_FILES=true mocha",
+    "build": "tsc",
+    "lint": "tslint"
   },
   "keywords": [
     "chai",
@@ -12,5 +15,16 @@
     "express"
   ],
   "author": "Kendrick Williams",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
 }

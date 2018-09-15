@@ -1,11 +1,11 @@
 {
   "name": "chai-express-router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chai assertions for express router",
   "main": "./build/index.js",
   "typings": "./index.d.ts",
   "files": [
-    "./build"
+    "build"
   ],
   "scripts": {
     "pretest": "npm run lint",

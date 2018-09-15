@@ -1,6 +1,6 @@
 {
   "name": "chai-express-router",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Chai assertions for express router",
   "main": "./build/index.js",
   "typings": "./index.d.ts",
